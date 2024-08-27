@@ -15,6 +15,10 @@
   box-shadow: none !important;
 }
 
+.login:focus {
+  border: 1px solid #ccc !important;
+}
+
 .featuredBrands {
   background: #f6f6f6;
   padding: 10px 0;
@@ -29,7 +33,11 @@
   height: 320px;
   transition: all .3s ease-in-out;
 
-  &:hover {
+}
+
+.cardItem {
+
+  &:hover .man-img {
     transform: scale(1.1);
   }
 }
